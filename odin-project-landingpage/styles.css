@@ -1,3 +1,34 @@
 html * {
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+}
+
+.header, .first-container, .footer {
+  background-color: #1f2937;
+}
+
+.toptext > p, .footer > p, li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 18px;
+}
