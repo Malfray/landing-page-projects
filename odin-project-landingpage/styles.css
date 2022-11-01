@@ -6,10 +6,42 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  justify-content: space-evenly;
 }
 
 .header {
   display: flex;
+  height: 80px;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 80px 0;
+}
+
+.second-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.third-container > div {
+
+}
+
+.toptext {
+  width: 500px;
+  height: auto;
 }
 
 .header, .first-container, .footer {
@@ -37,13 +69,13 @@ button, .bluebox {
 }
 
 .logo > img {
-  width: 100px;
+  max-width: 100px;
   height: auto;
 }
 
 .block > img {
-  width: 250px;
-  height: auto;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 h1 {
