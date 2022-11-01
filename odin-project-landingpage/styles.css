@@ -21,6 +21,16 @@ body {
   color: #e5e7eb;
 }
 
+.logo > img {
+  width: 100px;
+  height: auto;
+}
+
+.block > img {
+  width: 250px;
+  height: auto;
+}
+
 h1 {
   font-size: 48px;
   font-weight: bolder;
