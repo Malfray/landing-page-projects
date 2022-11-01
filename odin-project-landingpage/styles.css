@@ -21,6 +21,21 @@ body {
   color: #e5e7eb;
 }
 
+.third-container {
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937
+}
+
+button, .bluebox {
+  background-color: #3882f6;
+}
+
 .logo > img {
   width: 100px;
   height: auto;
